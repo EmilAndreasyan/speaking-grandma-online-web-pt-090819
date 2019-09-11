@@ -16,6 +16,7 @@ def speak_to_grandma(x)
   if x
     puts "HUH?! SPEAK UP, SONNY!"
   elsif x === x.upcase
-  puts 
+  puts "NO, NOT SINCE 1938!"
+  elsif x === 
 end
 speak_to_grandma()
