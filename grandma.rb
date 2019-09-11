@@ -13,7 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(x)
-  if x.upcase
+  if x
     puts "HUH?! SPEAK UP, SONNY!"
+  elsif x === x.upcase
+  puts 
 end
-speak_to_grandma("HELLO")
+speak_to_grandma()
