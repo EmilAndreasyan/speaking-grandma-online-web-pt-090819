@@ -17,6 +17,7 @@ def speak_to_grandma(x)
     puts "HUH?! SPEAK UP, SONNY!"
   elsif x === x.upcase
   puts "NO, NOT SINCE 1938!"
-  elsif x === 
+  elsif x === "I LOVE YOU GRANDMA!"
+  puts ""
 end
 speak_to_grandma()
