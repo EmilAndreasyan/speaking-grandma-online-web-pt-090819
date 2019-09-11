@@ -14,6 +14,6 @@
 
 def speak_to_grandma(x)
   if x.upcase
-    puts ""
+    puts "HUH?! SPEAK UP, SONNY!"
 end
-speak_to_grandma
+speak_to_grandma("HELLO")
